@@ -5,3 +5,4 @@
   <p><%= link_to "プロフィール画像", edit_user_path(@user) %></p>
   <% end %>
 </div>
+<%= render 'post_images/list', post_images: @post_images %>
